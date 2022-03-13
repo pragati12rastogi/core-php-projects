@@ -1,0 +1,51 @@
+<! doctype html>
+<html>
+<body>
+<input id="no1"></input>
+<input id="no2"></input><br>
+<br>
+<input id="result"></input>
+<button onclick="plus()">+</button>
+<button onclick="subs()">-</button>
+<button onclick="div()">/</button>
+<button onclick="multi()">X</button>
+
+<script>
+function plus()
+{
+var a,b;
+a=document.getElementById("no1").value;
+b=document.getElementById("no2").value;
+var w= parseInt(a) + parseInt(b);
+
+document.getElementById("result").value= w;
+}
+function subs()
+{
+var a,b;
+a=document.getElementById("no1").value;
+b=document.getElementById("no2").value;
+var w= parseInt(a) - parseInt(b);
+
+document.getElementById("result").value= w;
+}
+function div()
+{
+var a,b;
+a=document.getElementById("no1").value;
+b=document.getElementById("no2").value;
+var w= parseInt(a)/parseInt(b);
+document.getElementById("result").value= w;
+}
+function multi()
+{
+var a,b;
+a=document.getElementById("no1").value;
+b=document.getElementById("no2").value;
+var w= parseInt(a)*parseInt(b);
+
+document.getElementById("result").value= w;
+}
+</script>
+</body>
+</html>
