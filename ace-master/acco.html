@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<title>accordian</title>
+	</head>
+	<style>
+		.accordian
+		{
+			background-color: #f3dcf5;
+			height: 50px;
+			width: 100%;
+			border: solid 2px skyblue;
+		}
+		.accordian-section
+		{   
+			padding: 11px 0px 15px 33px;
+			font-size: larger;
+			font-weight: bolder;
+		}
+		.accordian-section:hover
+		{
+			background-color: pink;
+		}
+		.title
+		{	
+			text-decoration: none;
+			padding: 12px 764px 16px 0px;
+		}
+		.title:hover
+		{
+			color: red;
+		}
+		.fa-plus:before{content:"\f067"}
+		.fa-minus:before{content:"\f068"}
+		.collapse{background-color:#FFF}
+		.fa
+		{   
+			display: inline-block;
+			font: normal normal normal 14px/1 FontAwesome;
+			font-size: inherit;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased
+		}
+		.ace-icon
+		{
+			text-align: center;
+		}
+		.widget-toolbar>.widget-menu>a[data-action]>.ace-icon, .widget-toolbar>a[data-action]>.ace-icon {
+    margin-right: 0;
+	}
+	</style>
+	<body>
+		<div class="main">
+			<div class="accordian">
+				<div class="accordian-section">
+				<a class="title" href="data">Widgets maker</a>
+					<span>
+						<a href="#" data-action="collapse">
+							<i class="ace-icon fa fa-plus" data-icon-show="fa-plus" data-icon-hide="fa-minus"></i>
+						</a>
+					</span>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
