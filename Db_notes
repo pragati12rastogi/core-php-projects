@@ -4,3 +4,9 @@ mysql -u root -p
 use d2cdb2
 source C:\Users\parga\Downloads/d2cdb2.sql
 */
+
+
+/*
+** db cheatcode link in github
+https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3
+*/
